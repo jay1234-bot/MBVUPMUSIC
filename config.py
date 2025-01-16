@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @purvi_music_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8009369344))
+OWNER_ID = int(getenv("OWNER_ID", 7759422732))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RIYA_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RIYA_CHAT_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MBV_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MBV_CHATS")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/tubvt2.jpg"
+    "START_IMG_URL", "https://envs.sh/vv7.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/7x7ynt.jpg"
+    "PING_IMG_URL", "https://envs.sh/Ncy.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/i493lf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/7x7ynt.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/vvk.jpg"
+STATS_IMG_URL = "https://envs.sh/vvl.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/vvY.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/vvC.jpg"
+STREAM_IMG_URL = "https://envs.sh/vvR.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/vv1.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/vv1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/vv1.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/vv1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/vv1.jpg"
 
 
 def time_to_seconds(time):
