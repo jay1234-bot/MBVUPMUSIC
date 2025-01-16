@@ -50,7 +50,7 @@ async def init():
         pass
     await Sona.decorators()
     LOGGER("AYESHA").info(
-        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @ll_ALPHA_BABY_lll , @PURVI_SUPPORT FOR ANY ISSUES MADE BY AYESHA"
+        "DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @CENSORED_POLITICSSS , @MBV_CHATS FOR ANY ISSUES MADE BY APPLE"
     )
     await idle()
     await app.stop()
