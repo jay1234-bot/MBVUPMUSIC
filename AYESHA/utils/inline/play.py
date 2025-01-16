@@ -65,8 +65,8 @@ def stream_markup_timer(_, chat_id, played, dur):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/RIYA_NETWORK",),
-            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/RIYA_CHAT_SUPPORT",),
+            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/MBV_NETWORK",),
+            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/MBV_CHATS",),
         ],
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -91,10 +91,10 @@ def stream_markup(_, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="σ𝗐ɳєʀ", url="https://t.me/RIYA_NETWORK",
+                text="σ𝗐ɳєʀ", url="https://t.me/censored_politicsss",
             ),
             InlineKeyboardButton(
-                text="sυᴘᴘσʀᴛ", url="https://t.me/RIYA_CHAT_SUPPORT",
+                text="sυᴘᴘσʀᴛ", url="https://t.me/MBV_CHATS",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
